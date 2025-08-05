@@ -1,0 +1,28 @@
+# Python bytecode/junk
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment (local only, never push)
+env/
+.venv/
+venv/
+
+# Environment config
+.env
+
+# VSCode project settings
+.vscode/
+
+# LangChain / FAISS / Vector DB outputs
+data/vectorstore/
+*.faiss
+*.pkl
+
+# OS or temp files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log

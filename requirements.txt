@@ -1,0 +1,22 @@
+# Core packages
+langchain
+openai
+huggingface_hub
+python-dotenv
+langchain-community
+google-generativeai
+
+# Embeddings & vector DB
+sentence-transformers
+faiss-cpu
+
+# PDF support
+PyMuPDF
+
+# Streamlit UI (optional — but needed next)
+streamlit
+
+# Utilities
+requests
+fastapi
+uvicorn

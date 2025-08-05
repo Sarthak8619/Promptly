@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Promptly Enhancer",
+  "description": "Enhance raw prompts using your AI backend",
+  "version": "1.0",
+  "permissions": ["scripting", "activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "Promptly Enhancer"
+  }
+}
